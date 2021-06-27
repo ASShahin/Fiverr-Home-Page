@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'montserrat', sans-serif;
 }
 
 header{
@@ -33,6 +34,7 @@ header nav a{
     margin: 0 10px;
 }
 
+
 header nav input{
     width: 8%;
     padding: 4px;
@@ -46,13 +48,21 @@ header nav input{
     background-color: rgba(255,255,255,0);
 }
 
+header nav input:hover{
+    background: rgb(35, 218, 96);
+    border: 0px solid;
+    padding: 6px;
+}
+
 main{
     flex: none;
 }
 
 .sec-1{
     height: 650px;
+    width: 100%;
     font-family: 'montserrat', sans-serif;
+    background: rgb(7, 53, 21);
 }
 
 .sec-1 h1{
@@ -75,7 +85,7 @@ main{
     font-family: 'montserrat' sans-serif;
     font-weight: normal;
     font-size: 15px;
-    width: 550px;
+    width: 520px;
     padding: 15px;
     margin-top: 370px;
     margin-left: 20px;
@@ -83,7 +93,7 @@ main{
     border: 0px solid;
 }
 
-.sec-1 input[type='button']{
+.search-btn{
     position: absolute;
     font-family: 'montserrat' sans-serif;
     font-weight: bolder;
@@ -98,6 +108,150 @@ main{
     border: 0px solid;
 }
 
+.search-btn:hover{
+    background: rgb(12, 163, 63);
+}
+
+.sec-1 aside{
+    position: absolute;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    padding: 20px;
+    margin-top: 420px;
+}
+
+.sec-1 aside input{
+    padding: 5px 13px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0);
+    margin-left: 10px;
+}
+
+.sec-2{
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background: rgb(236, 236, 236);
+    justify-content: center;
+}
+
+.sec-2 label{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(161, 161, 161);
+}
+
+.sec-2 img{
+    padding-left: 50px;
+}
+
+.sec-3{
+    margin: 100px auto;
+    width: 100%;
+}
+
+.sec-3 div h2{
+    font-size: 30px;
+    padding: 20px 20px;
+    color: rgb(100, 100, 100);
+}
+
+.sec-3 div img{
+    width: 220px;
+    height: 370px;
+    object-fit: cover;
+    margin: 20px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.sec-3 div p{
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: -400px;
+    margin-left: 20px;
+    color: white;
+}
+
+.sec-3 div h3{
+    position: absolute;
+    font-size: 22px;
+    padding: 20px;
+    margin-top: -380px;
+    margin-left: 20px;
+    color: white;
+}
+
+.sec-4{
+    width: 100%;
+    background: rgb(231, 243, 243);
+}
+
+.sec4-left{
+    width: 40%;
+    padding-top: 50px;
+}
+
+.sec-4 div h3{
+    font-size: 30px;
+    padding: 30px 20px;
+    color: rgb(100, 100, 100);
+}
+
+.sec-4 div h4{
+    font-size: 20px;
+    padding: 0px 20px;
+    color: rgb(32, 32, 32);
+}
+
+.sec-4 div p{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: rgb(100, 100, 100);
+}
+
+.sec4-right{
+    width: 60%;
+    padding-top: 50px;
+}
+
+.sec-4 video{
+    margin: 40px auto;
+    padding: 40px;
+    width: 90%;
+}
+
+.sec-5{
+    width: 100%;
+}
+
+.sec-5 div{
+    padding: 40px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.sec-5 div figure img{
+    width: 50px;
+    padding-bottom: 10px;
+}
+
 .column{
     display: flex;
+}
+
+.row{
+    flex: none;
+}
+
+.hcenter{
+    justify-content: center;
 }
