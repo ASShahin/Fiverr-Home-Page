@@ -193,6 +193,7 @@ main{
 .sec-4{
     width: 100%;
     background: rgb(231, 243, 243);
+    padding-bottom: 60px;
 }
 
 .sec4-left{
@@ -224,7 +225,7 @@ main{
 }
 
 .sec-4 video{
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 40px;
     width: 90%;
 }
@@ -233,15 +234,32 @@ main{
     width: 100%;
 }
 
-.sec-5 div{
-    padding: 40px;
-    margin: 0px auto;
+.sec-5 h2{
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 30px 20px;
+    color: rgb(100, 100, 100);
+}
+
+.icons{
+    flex-wrap: wrap;
+}
+
+.icons div{
+    margin: 40px 30px;
+    flex-basis: 15%;
     text-align: center;
+    /*border: 2px solid;*/
 }
 
 .sec-5 div figure img{
     width: 50px;
     padding-bottom: 10px;
+}
+
+.sec-5 div a{
+    text-decoration: none;
+    color: black;
 }
 
 .column{
@@ -250,6 +268,10 @@ main{
 
 .row{
     flex: none;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .hcenter{
