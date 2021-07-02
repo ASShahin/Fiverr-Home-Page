@@ -384,16 +384,16 @@ main{
 
 .sec-8{
     width: 100%;
-    margin: 20px 20px;
+    margin: 0px 20px;
 }
 
 .sec-8 article{
-    padding: 20px 60px;
     background: rgb(60, 98, 204);
 }
 
 .sec8-left{
     width: 30%;
+    padding: 40px 60px;
     line-height: 40px;
     color: white;
 }
@@ -427,11 +427,14 @@ main{
 }
 
 .sec8-right{
-    width: 70%;
+    width: 60%;
 }
 
 .sec8-right picture img{
-    width: 100%;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid; */
 }
 
 .column{
