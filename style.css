@@ -349,6 +349,91 @@ main{
     padding: 50px;
 }
 
+.sec-7{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.sec7-left{
+    padding: 20px;
+    width: 45%;
+}
+
+.sec7-left video{
+    width: 90%;
+    padding: 50px 0px;
+}
+
+.sec7-right{
+    width: 60%;
+    padding: 70px 20px;
+}
+
+.sec7-right h5{
+    font-family: HeaderFont;
+    font-size: 20px;
+    color: grey;
+}
+
+.sec7-right blockquote{
+    font-size: 31px;
+    font-style: italic;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.sec-8{
+    width: 100%;
+    margin: 20px 20px;
+}
+
+.sec-8 article{
+    padding: 20px 60px;
+    background: rgb(60, 98, 204);
+}
+
+.sec8-left{
+    width: 30%;
+    line-height: 40px;
+    color: white;
+}
+
+.sec8-left i{
+    font-size: 25px;
+    font-style: normal;
+}
+
+.sec8-left img{
+    width: 65px;
+}
+
+.sec8-left small{
+    position: absolute;
+    font-size: 10px;
+    margin: 5px 20px;
+}
+
+.sec8-left h5{
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.sec8-left input{
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    color: rgb(60, 98, 204);
+    font-weight: bold;
+}
+
+.sec8-right{
+    width: 70%;
+}
+
+.sec8-right picture img{
+    width: 100%;
+}
+
 .column{
     display: flex;
 }
