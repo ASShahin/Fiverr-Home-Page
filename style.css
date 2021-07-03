@@ -24,11 +24,14 @@ body{
     font-family: BodyFont;
 }
 
+.container{
+    max-width: 1400px;
+    /* align-content: center; */
+}
+
 header{
     width: 100%;
     position: fixed;
-    margin: 0 0;
-    padding: 0 0;
     background: rgba(255,255,255,0);
 }
 
@@ -76,9 +79,13 @@ main{
 }
 
 .sec-1{
-    height: 650px;
+    /* height: 650px; */
     width: 100%;
     background: rgb(7, 53, 21);
+}
+
+.sec-1 img{
+    width: 100%;
 }
 
 .sec-1 h1{
@@ -149,7 +156,7 @@ main{
 .sec-2{
     margin: auto;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px;
     background: rgb(236, 236, 236);
     justify-content: center;
 }
@@ -162,7 +169,7 @@ main{
 }
 
 .sec-2 img{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .sec-3{
@@ -340,7 +347,7 @@ main{
 }
 
 .sec6-right{
-    width: 60%;
+    width: 50%;
 }
 
 .sec6-right img{
@@ -383,8 +390,8 @@ main{
 }
 
 .sec-8{
-    width: 100%;
-    margin: 0px 20px;
+    width: 97%;
+    padding: 0px 20px;
 }
 
 .sec-8 article{
@@ -392,10 +399,14 @@ main{
 }
 
 .sec8-left{
-    width: 30%;
+    width: 100%;
     padding: 40px 60px;
     line-height: 40px;
-    color: white;
+    color: white;    
+    background-image: url(resources/logo-maker-banner-wide-desktop-1352-2x\ \(2\).png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .sec8-left i{
@@ -427,7 +438,7 @@ main{
 }
 
 .sec8-right{
-    width: 60%;
+    width: 70%;
 }
 
 .sec8-right picture img{
@@ -435,6 +446,249 @@ main{
     height: 100%;
     object-fit: cover;
     /* border: 2px solid; */
+}
+
+.sec-9{
+    width: 100%;
+    padding: 100px 0px;
+    background: rgb(223, 223, 223);
+    margin: 50px 0px;
+}
+
+.sec-9 h5{
+    font-family: HeaderFont, sans-serif;
+    padding: 0px 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sec-9 p{
+    margin: 15px 20px 0px 380px;
+}
+
+.sec-9 p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.sec-9 figure{
+    width: 300px;
+    height: 250px;
+    margin: 20px 20px 0px 0px;
+    /* border: 2px solid; */
+}
+
+.sec-9 div picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid; */
+}
+
+.sec-9 figcaption{
+    background: white;
+    width: 300px;
+    height: 70px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-image: url(resources/750ccab0-8a64-4c91-b9a4-d10039dbf79c.jpg);
+}
+
+.sec-9 figcaption a{
+    text-decoration: none;
+    color: grey;
+    line-height: 23px;
+}
+
+.sec-9 figcaption a strong{
+    color: black;
+}
+
+.sec-10{
+    width: 100%;
+    padding: 50px 20px;
+    margin: 50px 0px;
+}
+
+.sec-10 h5{
+    font-family: HeaderFont, sans-serif;
+    font-size: 32px;
+}
+
+.sec-10 p{
+    margin: 15px 20px 0px 940px;
+}
+
+.sec-10 p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.sec10-body {
+    margin: 20px 20px 20px 0px;
+}
+
+.sec10-body a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    width: 30%;
+    /* border: 5px solid red; */
+}
+
+.sec10-body a div{
+    width: 100%;
+    /* border: 2px solid; */
+    margin: 20px 0px;
+}
+
+.sec10-body a div img{
+    width: 100%;
+}
+
+.sec10-body a div h5{
+    font-family: HeaderFont, sans-serif;
+    font-size: 25px;
+}
+
+.sec10-body a div summary{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+
+.sec-11{
+    width: 96%;
+    /* height: 400px; */
+    margin: 20px;
+    /* border: 5px solid; */
+    background-image: url(resources/bg-signup-1160-x2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.sec-11 div{
+    width: 50%;
+    padding: 100px 0px 200px 100px;
+    color: white;
+    /* border: 5px solid black; */
+}
+
+.sec-11 div h5{
+    font-family: HeaderFont, sans-serif;
+    font-size: 52px;
+}
+
+.sec-11 div h5 i{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.sec-11 div a{
+    position: absolute;
+    margin: 35px 0px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px solid;
+    border-radius: 5px;
+    background: rgb(35, 218, 96);
+    color: white;
+}
+
+footer{
+    margin-top: 70px;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-sec{
+    width: 20%;
+    padding-right: 20px;
+}
+
+.footer-sec div h6{
+    font-family: HeaderFont, sans-serif;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.footer-sec div ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.footer-sec div ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
+
+.footer-sec div ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-left{
+    width: 60%;
+    /* border: 2px solid; */
+}
+
+.footer-left div img{
+    width: 13%;
+    /* border: 2px solid; */
+}
+
+.footer-left div p{
+    position: absolute;
+    padding: 10px 0px 10px 150px;
+    color: grey;
+}
+
+.footer-right{
+    width: 35%;
+    /* border: 2px solid; */
+}
+
+.footer-right div{
+    width: 5%;
+    padding: 10px 5px 10px 10px;
+    border-radius: 5px;
+}
+
+.footer-right div a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 50px;
+    margin-top: 10px;
+    /* border: 2px solid; */
+}
+
+.footer-right div a img{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.footer-right div a span{
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    /* border: 2px solid green; */
+}
+
+.margin-10px{
+    margin: 10px 0px 10px 10px;
 }
 
 .column{
